@@ -4,8 +4,11 @@
   "description": "json tool",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./index.js"
   },
   "author": "trains629",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "lodash": "^4.16.6"
+  }
 }
